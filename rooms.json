@@ -1,0 +1,1041 @@
+{
+ "rooms": [
+  {
+   "id": "dining",
+   "name": "Dining room",
+   "floor": 0,
+   "rect": [
+    0.39,
+    4.88,
+    0.25,
+    6.18
+   ],
+   "w": 4.49,
+   "d": 5.93,
+   "ch": 2.7,
+   "label": [
+    4.5,
+    5.9
+   ],
+   "note": "Open to the living room; width taken to the first column line.",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    4.2,
+    5.5,
+    0.0
+   ],
+   "yaw": 0.6
+  },
+  {
+   "id": "living",
+   "name": "Living room",
+   "floor": 0,
+   "rect": [
+    4.88,
+    12.4,
+    0.25,
+    6.18
+   ],
+   "w": 7.52,
+   "d": 5.93,
+   "ch": 2.7,
+   "label": [
+    7.5,
+    5.9
+   ],
+   "note": "Open on both sides; width taken between the two column lines.",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    6.0,
+    5.6,
+    0.0
+   ],
+   "yaw": -0.5
+  },
+  {
+   "id": "kitchen",
+   "name": "Family kitchen",
+   "floor": 0,
+   "rect": [
+    12.4,
+    18.73,
+    0.25,
+    6.18
+   ],
+   "w": 6.33,
+   "d": 5.93,
+   "ch": 2.7,
+   "label": [
+    6.3,
+    5.9
+   ],
+   "note": "Open to the living room.",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    13.2,
+    5.5,
+    0.0
+   ],
+   "yaw": -0.6
+  },
+  {
+   "id": "foyer",
+   "name": "Entrance lobby",
+   "floor": 0,
+   "rect": [
+    4.83,
+    8.57,
+    6.42,
+    14.2
+   ],
+   "w": 3.74,
+   "d": 7.78,
+   "ch": 6.25,
+   "label": [
+    3.7,
+    8.0
+   ],
+   "note": "Double height towards the front door. The label counts the stair in its width.",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    5.9,
+    13.2,
+    0.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "id": "stair",
+   "name": "Stair",
+   "floor": 0,
+   "rect": [
+    7.1,
+    8.57,
+    6.4,
+    12.2
+   ],
+   "w": 1.47,
+   "d": 5.8,
+   "ch": 6.25,
+   "label": null,
+   "note": "One straight flight; 20 risers of 167.5 mm (assumed). First-floor label: 1.7 x 7.1.",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    7.85,
+    13.2,
+    0.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "id": "powder",
+   "name": "Powder room",
+   "floor": 0,
+   "rect": [
+    8.78,
+    10.75,
+    8.73,
+    11.53
+   ],
+   "w": 1.97,
+   "d": 2.8,
+   "ch": 2.5,
+   "label": [
+    2.0,
+    2.7
+   ],
+   "note": "",
+   "outdoor": false,
+   "dark": true,
+   "stand": [
+    10.2,
+    9.4,
+    0.0
+   ],
+   "yaw": 2.4
+  },
+  {
+   "id": "familylobby",
+   "name": "Family lobby",
+   "floor": 0,
+   "rect": [
+    8.78,
+    12.39,
+    12.47,
+    14.22
+   ],
+   "w": 3.61,
+   "d": 1.75,
+   "ch": 2.7,
+   "label": [
+    3.8,
+    1.7
+   ],
+   "note": "With the passage running north to the living room.",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    11.6,
+    13.4,
+    0.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "id": "guest",
+   "name": "Guest bedroom",
+   "floor": 0,
+   "rect": [
+    0.39,
+    4.6,
+    6.42,
+    10.21
+   ],
+   "w": 4.21,
+   "d": 3.79,
+   "ch": 2.7,
+   "label": [
+    4.1,
+    3.7
+   ],
+   "note": "Depth includes the wardrobe.",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    4.0,
+    6.9,
+    0.0
+   ],
+   "yaw": 2.2
+  },
+  {
+   "id": "guestbath",
+   "name": "Guest bathroom",
+   "floor": 0,
+   "rect": [
+    0.39,
+    3.28,
+    10.36,
+    12.54
+   ],
+   "w": 2.89,
+   "d": 2.18,
+   "ch": 2.5,
+   "label": [
+    2.8,
+    2.1
+   ],
+   "note": "",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    2.6,
+    11.0,
+    0.0
+   ],
+   "yaw": 1.0
+  },
+  {
+   "id": "office",
+   "name": "Office",
+   "floor": 0,
+   "rect": [
+    0.39,
+    4.6,
+    12.67,
+    16.77
+   ],
+   "w": 4.21,
+   "d": 4.1,
+   "ch": 2.7,
+   "label": [
+    3.9,
+    4.1
+   ],
+   "note": "L-shaped: narrower (2.9 m) at the back, behind its entrance.",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    4.1,
+    14.9,
+    0.0
+   ],
+   "yaw": 2.3
+  },
+  {
+   "id": "servicekitchen",
+   "name": "Service kitchen",
+   "floor": 0,
+   "rect": [
+    12.58,
+    18.73,
+    6.33,
+    8.98
+   ],
+   "w": 6.15,
+   "d": 2.65,
+   "ch": 2.7,
+   "label": [
+    6.1,
+    2.6
+   ],
+   "note": "",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    17.6,
+    7.7,
+    0.0
+   ],
+   "yaw": 1.57
+  },
+  {
+   "id": "larder",
+   "name": "Larder",
+   "floor": 0,
+   "rect": [
+    12.58,
+    14.36,
+    11.13,
+    13.42
+   ],
+   "w": 1.78,
+   "d": 2.29,
+   "ch": 2.7,
+   "label": [
+    1.8,
+    2.2
+   ],
+   "note": "Reached from the service kitchen.",
+   "outdoor": false,
+   "dark": true,
+   "stand": [
+    13.8,
+    12.9,
+    0.0
+   ],
+   "yaw": 0.4
+  },
+  {
+   "id": "maidbath",
+   "name": "Maid's bathroom",
+   "floor": 0,
+   "rect": [
+    14.55,
+    15.76,
+    9.17,
+    11.81
+   ],
+   "w": 1.21,
+   "d": 2.64,
+   "ch": 2.5,
+   "label": [
+    1.2,
+    2.6
+   ],
+   "note": "",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    15.3,
+    10.5,
+    0.0
+   ],
+   "yaw": 2.6
+  },
+  {
+   "id": "maid",
+   "name": "Maid's bedroom",
+   "floor": 0,
+   "rect": [
+    15.97,
+    18.73,
+    9.17,
+    11.81
+   ],
+   "w": 2.76,
+   "d": 2.64,
+   "ch": 2.7,
+   "label": [
+    2.7,
+    2.6
+   ],
+   "note": "",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    16.5,
+    10.2,
+    0.0
+   ],
+   "yaw": -1.9
+  },
+  {
+   "id": "driverbath",
+   "name": "Driver's bathroom",
+   "floor": 0,
+   "rect": [
+    14.55,
+    15.78,
+    12.0,
+    14.22
+   ],
+   "w": 1.23,
+   "d": 2.22,
+   "ch": 2.5,
+   "label": [
+    1.2,
+    2.2
+   ],
+   "note": "",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    15.3,
+    13.4,
+    0.0
+   ],
+   "yaw": 0.6
+  },
+  {
+   "id": "driver",
+   "name": "Driver's bedroom",
+   "floor": 0,
+   "rect": [
+    15.97,
+    18.73,
+    12.0,
+    14.22
+   ],
+   "w": 2.76,
+   "d": 2.22,
+   "ch": 2.7,
+   "label": [
+    2.7,
+    2.2
+   ],
+   "note": "Entered from the garage side.",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    16.5,
+    13.6,
+    0.0
+   ],
+   "yaw": -1.2
+  },
+  {
+   "id": "garage",
+   "name": "Garage",
+   "floor": 0,
+   "rect": [
+    10.94,
+    17.66,
+    14.53,
+    20.3
+   ],
+   "w": 6.72,
+   "d": 5.77,
+   "ch": 3.0,
+   "label": [
+    6.6,
+    5.6
+   ],
+   "note": "Two cars. The door is drawn shut and does not open in the model.",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    11.6,
+    15.2,
+    0.0
+   ],
+   "yaw": -2.4
+  },
+  {
+   "id": "lift",
+   "name": "Lift",
+   "floor": 0,
+   "rect": [
+    9.75,
+    10.75,
+    6.7,
+    7.6
+   ],
+   "w": 1.0,
+   "d": 0.9,
+   "ch": 2.2,
+   "label": [
+    1.0,
+    0.9
+   ],
+   "note": "The car is drawn at all three levels with its doors open; the viewer moves you between levels.",
+   "outdoor": false,
+   "dark": true,
+   "stand": [
+    10.25,
+    7.15,
+    0.0
+   ],
+   "yaw": -1.57
+  },
+  {
+   "id": "pool",
+   "name": "Terrace and pool",
+   "floor": 0,
+   "rect": [
+    0.39,
+    18.73,
+    -9.0,
+    0.1
+   ],
+   "w": 18.34,
+   "d": 9.1,
+   "ch": null,
+   "label": null,
+   "note": "Terrace as on the plan. Pool size and position are assumed (about 10.5 x 3.0 m): the plan stops short of it.",
+   "outdoor": true,
+   "dark": false,
+   "stand": [
+    9.5,
+    -3.0,
+    0.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "id": "porch",
+   "name": "Entrance",
+   "floor": 0,
+   "rect": [
+    4.83,
+    10.7,
+    14.35,
+    16.92
+   ],
+   "w": 5.87,
+   "d": 2.57,
+   "ch": null,
+   "label": null,
+   "note": "Covered by the first-floor terrace.",
+   "outdoor": true,
+   "dark": false,
+   "stand": [
+    7.6,
+    16.4,
+    0.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "id": "lounge",
+   "name": "Family lounge",
+   "floor": 1,
+   "rect": [
+    4.83,
+    12.4,
+    0.25,
+    5.34
+   ],
+   "w": 7.57,
+   "d": 5.09,
+   "ch": 2.6,
+   "label": [
+    7.5,
+    5.2
+   ],
+   "note": "",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    6.0,
+    4.9,
+    3.35
+   ],
+   "yaw": -0.5
+  },
+  {
+   "id": "hall1",
+   "name": "Upper hall",
+   "floor": 1,
+   "rect": [
+    4.83,
+    6.91,
+    5.34,
+    9.55
+   ],
+   "w": 2.08,
+   "d": 4.21,
+   "ch": 2.6,
+   "label": null,
+   "note": "Looks down into the entrance lobby.",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    5.8,
+    8.9,
+    3.35
+   ],
+   "yaw": 3.14
+  },
+  {
+   "id": "bed2",
+   "name": "Bedroom 2",
+   "floor": 1,
+   "rect": [
+    0.39,
+    4.64,
+    0.25,
+    3.65
+   ],
+   "w": 4.25,
+   "d": 3.4,
+   "ch": 2.6,
+   "label": [
+    4.2,
+    3.5
+   ],
+   "note": "",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    4.0,
+    3.2,
+    3.35
+   ],
+   "yaw": 0.9
+  },
+  {
+   "id": "bath2",
+   "name": "Bathroom 2",
+   "floor": 1,
+   "rect": [
+    0.39,
+    2.67,
+    3.79,
+    6.17
+   ],
+   "w": 2.28,
+   "d": 2.38,
+   "ch": 2.4,
+   "label": [
+    2.2,
+    2.5
+   ],
+   "note": "",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    2.2,
+    5.7,
+    3.35
+   ],
+   "yaw": 0.9
+  },
+  {
+   "id": "bath3",
+   "name": "Bathroom 3",
+   "floor": 1,
+   "rect": [
+    0.39,
+    2.67,
+    6.62,
+    9.49
+   ],
+   "w": 2.28,
+   "d": 2.87,
+   "ch": 2.4,
+   "label": [
+    2.2,
+    2.8
+   ],
+   "note": "",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    2.2,
+    8.9,
+    3.35
+   ],
+   "yaw": 0.6
+  },
+  {
+   "id": "bed3",
+   "name": "Bedroom 3",
+   "floor": 1,
+   "rect": [
+    0.39,
+    4.58,
+    9.65,
+    14.2
+   ],
+   "w": 4.19,
+   "d": 4.55,
+   "ch": 2.6,
+   "label": [
+    4.1,
+    3.9
+   ],
+   "note": "Depth label is to the wardrobe fronts (model: 3.95 m to the wardrobe, 4.55 m to the wall).",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    4.0,
+    10.6,
+    3.35
+   ],
+   "yaw": 2.3
+  },
+  {
+   "id": "bath4",
+   "name": "Bathroom 4",
+   "floor": 1,
+   "rect": [
+    8.78,
+    10.8,
+    8.73,
+    11.52
+   ],
+   "w": 2.02,
+   "d": 2.79,
+   "ch": 2.4,
+   "label": [
+    2.0,
+    2.7
+   ],
+   "note": "",
+   "outdoor": false,
+   "dark": true,
+   "stand": [
+    10.2,
+    11.1,
+    3.35
+   ],
+   "yaw": 0.6
+  },
+  {
+   "id": "bed4",
+   "name": "Bedroom 4",
+   "floor": 1,
+   "rect": [
+    10.93,
+    14.62,
+    10.04,
+    14.2
+   ],
+   "w": 3.69,
+   "d": 4.16,
+   "ch": 2.6,
+   "label": [
+    3.6,
+    4.1
+   ],
+   "note": "Its dressing area and bathroom 4 are to the west.",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    11.4,
+    10.6,
+    3.35
+   ],
+   "yaw": -2.3
+  },
+  {
+   "id": "master",
+   "name": "Master bedroom",
+   "floor": 1,
+   "rect": [
+    13.0,
+    18.73,
+    0.25,
+    4.36
+   ],
+   "w": 5.73,
+   "d": 4.11,
+   "ch": 2.6,
+   "label": [
+    5.6,
+    4.2
+   ],
+   "note": "",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    13.6,
+    3.9,
+    3.35
+   ],
+   "yaw": -0.9
+  },
+  {
+   "id": "masterbath",
+   "name": "Master bathroom",
+   "floor": 1,
+   "rect": [
+    14.62,
+    18.73,
+    4.49,
+    8.6
+   ],
+   "w": 4.11,
+   "d": 4.11,
+   "ch": 2.4,
+   "label": [
+    3.8,
+    4.1
+   ],
+   "note": "Includes the separate WC and shower rooms.",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    15.1,
+    6.4,
+    3.35
+   ],
+   "yaw": -2.0
+  },
+  {
+   "id": "closet",
+   "name": "Master dressing",
+   "floor": 1,
+   "rect": [
+    14.72,
+    18.73,
+    8.73,
+    14.2
+   ],
+   "w": 4.01,
+   "d": 5.47,
+   "ch": 2.6,
+   "label": [
+    3.9,
+    5.4
+   ],
+   "note": "",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    15.9,
+    9.4,
+    3.35
+   ],
+   "yaw": -2.6
+  },
+  {
+   "id": "balcony_n",
+   "name": "Rear terrace",
+   "floor": 1,
+   "rect": [
+    0.39,
+    18.73,
+    -2.3,
+    0.1
+   ],
+   "w": 18.34,
+   "d": 2.4,
+   "ch": null,
+   "label": null,
+   "note": "Not dimensioned on the plan.",
+   "outdoor": true,
+   "dark": false,
+   "stand": [
+    9.5,
+    -1.3,
+    3.35
+   ],
+   "yaw": 0.0
+  },
+  {
+   "id": "balcony_s",
+   "name": "Front terrace",
+   "floor": 1,
+   "rect": [
+    0.39,
+    18.73,
+    14.35,
+    16.92
+   ],
+   "w": 18.34,
+   "d": 2.57,
+   "ch": null,
+   "label": null,
+   "note": "Not dimensioned on the plan.",
+   "outdoor": true,
+   "dark": false,
+   "stand": [
+    9.5,
+    15.6,
+    3.35
+   ],
+   "yaw": 3.14
+  },
+  {
+   "id": "gallery",
+   "name": "Basement gallery",
+   "floor": -1,
+   "rect": [
+    7.1,
+    12.32,
+    12.17,
+    13.6
+   ],
+   "w": 5.22,
+   "d": 1.43,
+   "ch": 2.64,
+   "label": null,
+   "note": "At the foot of the stair. Not dimensioned on the plan.",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    10.6,
+    12.9,
+    -3.0
+   ],
+   "yaw": 1.57
+  },
+  {
+   "id": "bcorridor",
+   "name": "Basement corridor",
+   "floor": -1,
+   "rect": [
+    10.94,
+    12.32,
+    6.46,
+    12.17
+   ],
+   "w": 1.38,
+   "d": 5.71,
+   "ch": 2.64,
+   "label": null,
+   "note": "Part of the gallery on the plan: the passage to the lift and the service rooms.",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    11.6,
+    9.6,
+    -3.0
+   ],
+   "yaw": 0.0
+  },
+  {
+   "id": "boiler",
+   "name": "Boiler room",
+   "floor": -1,
+   "rect": [
+    8.78,
+    10.75,
+    8.76,
+    11.26
+   ],
+   "w": 1.97,
+   "d": 2.5,
+   "ch": 2.64,
+   "label": [
+    1.9,
+    2.5
+   ],
+   "note": "",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    10.35,
+    9.15,
+    -3.0
+   ],
+   "yaw": 2.5
+  },
+  {
+   "id": "laundry",
+   "name": "Laundry room",
+   "floor": -1,
+   "rect": [
+    12.48,
+    16.48,
+    5.24,
+    7.63
+   ],
+   "w": 4.0,
+   "d": 2.39,
+   "ch": 2.64,
+   "label": [
+    4.0,
+    2.4
+   ],
+   "note": "",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    12.9,
+    6.75,
+    -3.0
+   ],
+   "yaw": -1.45
+  },
+  {
+   "id": "store",
+   "name": "Store room",
+   "floor": -1,
+   "rect": [
+    12.48,
+    16.48,
+    7.82,
+    10.01
+   ],
+   "w": 4.0,
+   "d": 2.19,
+   "ch": 2.64,
+   "label": [
+    4.0,
+    2.2
+   ],
+   "note": "",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    12.9,
+    8.75,
+    -3.0
+   ],
+   "yaw": -1.7
+  },
+  {
+   "id": "mechanical",
+   "name": "Mechanical room",
+   "floor": -1,
+   "rect": [
+    12.48,
+    16.48,
+    10.26,
+    14.13
+   ],
+   "w": 4.0,
+   "d": 3.87,
+   "ch": 2.64,
+   "label": [
+    3.9,
+    4.0
+   ],
+   "note": "",
+   "outdoor": false,
+   "dark": false,
+   "stand": [
+    12.95,
+    10.75,
+    -3.0
+   ],
+   "yaw": -2.25
+  }
+ ],
+ "F1": 3.35,
+ "B0": -3.0,
+ "window": [
+  -2.4,
+  22.4,
+  -13.4,
+  21.7
+ ]
+}

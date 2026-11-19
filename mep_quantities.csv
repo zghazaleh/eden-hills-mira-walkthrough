@@ -1,0 +1,41 @@
+System,Item,Quantity,Unit
+Electrical,Incoming supply and sub-main,59.9,m
+Electrical,Lighting circuits,742.7,m
+Electrical,Socket circuits,840.0,m
+Electrical,Meter and distribution boards,4,no
+Electrical,Lighting points,187,no
+Electrical,Switches,10,no
+Electrical,Sockets,127,no
+Water supply,Cold water,251.4,m
+Water supply,Hot water,160.4,m
+Water supply,"Tank, pump, meter, hot-water cylinder",4,no
+Drainage,"Soil pipe and stacks, 110 mm",57.6,m
+Drainage,"Waste pipe, 50 mm",101.0,m
+Drainage,"Underground drain, 160 mm",48.0,m
+Drainage,"Rainwater pipe, 110 mm",27.8,m
+Drainage,Inspection chambers,9,no
+Air conditioning,Supply duct,47.4,m
+Air conditioning,Refrigerant pipe pair,267.1,m
+Air conditioning,"Extract duct, 100 to 150 mm",50.3,m
+Air conditioning,Indoor units (ducted split),16,no
+Air conditioning,Outdoor units on the roof,16,no
+Air conditioning,Supply diffusers,32,no
+Air conditioning,Extract fans,9,no
+
+AC unit,Area served m2,Indicative TR
+Living room,44.6,3.0
+Dining room,26.6,2.0
+Family kitchen,37.5,2.5
+Service kitchen,20.4,1.5
+Entrance lobby,43.9,3.0
+Guest bedroom,16.0,1.0
+Office,17.3,1.5
+Maid's bedroom,7.3,1.0
+Driver's bedroom,6.1,1.0
+Family lounge,47.3,3.0
+Bedroom 2,14.4,1.0
+Bedroom 3,19.1,1.5
+Bedroom 4,15.4,1.0
+Master bedroom,23.6,1.5
+Master dressing,21.9,1.5
+Basement gallery,24.1,2.0
