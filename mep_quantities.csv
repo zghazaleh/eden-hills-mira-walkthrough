@@ -1,9 +1,9 @@
 System,Item,Quantity,Unit
 Electrical,Incoming supply and sub-main,59.9,m
-Electrical,Lighting circuits,742.7,m
+Electrical,Lighting circuits,963.4,m
 Electrical,Socket circuits,840.0,m
 Electrical,Meter and distribution boards,4,no
-Electrical,Lighting points,187,no
+Electrical,Lighting points,232,no
 Electrical,Switches,10,no
 Electrical,Sockets,127,no
 Water supply,Cold water,251.4,m
